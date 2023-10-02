@@ -12,7 +12,7 @@ export default function Friends(){
   }, [])
 
 return (
-    <div className="border-8 text-center mb-7 mx-96">
+    <div className="border-8 text-center mb-7">
         <h3 className="text-5xl text-center">Friends :{friends.length}</h3>    
         { 
             friends.map(friend => <Friend friend = {friend}></Friend>)
